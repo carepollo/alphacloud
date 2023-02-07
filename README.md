@@ -25,5 +25,8 @@ then go to your browser and visit the http://localhost:yourport
 
 ### API
 
-You will have the following endpoints
-
+You will request to the root path with the following query params
+- `text`: mandatory param, is the text to be printed
+- `background`: the background image to use, accepts the values `code`, `instagram`, `quote`, `white` default is `white`
+- `text_color`: the color for the text `red`, `white`, `green`, `black` default is `black`
+- `text_font`: the font for the text displayed, accepts `inconsolata`, `roboto`, `sassyfrass`, default is `roboto`

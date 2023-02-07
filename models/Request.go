@@ -4,7 +4,7 @@ import "image/color"
 
 type Request struct {
 	/*
-		the background image, it can be 'code', 'instagram', 'quote', by default must be 'code'
+		the background image, it can be 'code', 'instagram', 'quote', 'white', by default must be 'white'
 	*/
 	Background string
 

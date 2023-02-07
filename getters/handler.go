@@ -1,4 +1,4 @@
-package main
+package getters
 
 import (
 	"image"
@@ -19,7 +19,7 @@ func Text2Image(config models.Request) (image.Image, error) {
 	result := gg.NewContext(imgWidth, imgHeight)
 	result.DrawImage(bgImage, 0, 0)
 
-	if err := result.LoadFontFace(config.TextFont, 20); err != nil {
+	if err := result.LoadFontFace(config.TextFont, 80.0); err != nil {
 		return nil, err
 	}
 
